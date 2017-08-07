@@ -1,5 +1,6 @@
-* {
+body {
 	background-color: black;
+	color: seashell;
 }
 
 .header {
@@ -114,17 +115,9 @@ span a {
 }
 
 .footer-container {
-	display: flex;
-	align-items: center;
-	top: 100px;
-	color: seashell;
 	background-image: url("../images/img-locations-background.jpg");
-	width: 1200px;
+	padding-top: 70px;
 	height: 500px;
-	justify-content: center;
-	font-family: Helvetica;
-	color: seashell;
-	opacity: 0.9;
 }
 
 .headings {
@@ -139,4 +132,10 @@ h4 {
 	width: 300px;
 	height: 300px;
 
+}
+
+.locations-background {
+	display: flex;
+	justify-content: center;
+	padding: 30px;
 }
