@@ -40,8 +40,14 @@ span a {
 	justify-content: space-around;
 
 }
+.main {
+	padding-top: 69px;
+	opacity:0.9;
+	width: 1200px;
+	margin: auto;
+}
 
-.container {
+.herobox {
 	width: 1200px;
 	height: 700px;
 	display: flex;
