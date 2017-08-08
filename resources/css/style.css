@@ -1,6 +1,10 @@
 body {
 	background-color: black;
 	color: seashell;
+	font-family: Helvetica;
+	font-size: 22px;
+	opacity: 0.9;
+
 }
 
 .header {
@@ -13,6 +17,8 @@ body {
 	align-items: center;
 	border-bottom: 1px solid seashell;
 	margin: 0 auto;
+	background-color: black;
+
 
 }
 
@@ -61,6 +67,10 @@ span a {
 
 }
 
+.textbanner {
+	background-color: black;
+}
+
 .mission, .description {
 	display: flex;
 	background-color: black;
@@ -103,15 +113,11 @@ span a {
 }
 
 .image-container {
-	flex-direction: row;
 	display: flex;
 	flex-wrap: wrap;
 	padding: 10px;
-	justify-content: center;
-}
+	justify-content: space-around;
 
-.image-box {
-	padding: 10px;
 }
 
 .footer-container {
@@ -119,7 +125,6 @@ span a {
 	padding-top: 70px;
 	height: 500px;
 }
-
 .headings {
 	font: bold;
 }
@@ -128,14 +133,40 @@ h4 {
 	text-align: center;
 }
 
+h1 {
+	text-align: center;
+}
 .locations {
 	width: 300px;
 	height: 300px;
+	background-color: black;
+	margin: 20px;
+	text-align: center;
+	align-items: center;
 
 }
 
-.locations-background {
+.locationsbackground {
 	display: flex;
 	justify-content: center;
-	padding: 30px;
+	margin-top: 15px;
 }
+
+.address {
+	font-weight: normal;
+}
+
+.contact {
+	height: 200px;
+	text-align: center;
+	color: seashell;
+	opacity: 0.9;
+}
+
+.copyright {
+	padding-left: 20px;
+	color: seashell;
+	opacity: 0.9;
+
+}
+
